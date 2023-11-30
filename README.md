@@ -21,9 +21,11 @@ With these tools installed, you'll be equipped to work seamlessly on the SmartSp
 ### Mobile App Interface
 Get a glimpse of our user-friendly and intuitive mobile application, designed for both Android and iOS platforms.
 
-<img src="img\AndroidApp_3.jpg" alt="CAD Prototype" width="200"/>
-<img src="img\AndroidApp_1.jpg" alt="CAD Prototype" width="200"/>
-<img src="img\AndroidApp_2.jpg" alt="CAD Prototype" width="195"/>
+<div style="display: flex; justify-content: space-around;">
+  <img src="img/AndroidApp_3.jpg" alt="Android App Interface 1" width="200"/>
+  <img src="img/AndroidApp_1.jpg" alt="Android App Interface 2" width="200"/>
+  <img src="img/AndroidApp_2.jpg" alt="Android App Interface 3" width="195"/>
+</div>
 
 ### CAD Prototype
 Check out the CAD prototype of our SmartSprinkler system, showcasing the intricate design and engineering behind our project.

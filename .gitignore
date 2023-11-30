@@ -1,4 +1,5 @@
 myenv
 test
 test.py
-test.py2
+test.py
+.vscode

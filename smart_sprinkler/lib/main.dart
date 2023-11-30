@@ -99,7 +99,7 @@ class _SignInPageState extends State<SignInPage> {
           alignment: Alignment.centerLeft,
           decoration: BoxDecoration(
             color: Colors.white,
-            borderRadius: BorderRadius.circular(10.0),
+            borderRadius: BorderRadius.circular(20.0),
             boxShadow: const [
               BoxShadow(
                 color: Colors.black12,
@@ -169,7 +169,7 @@ class _SignInPageState extends State<SignInPage> {
           alignment: Alignment.centerLeft,
           decoration: BoxDecoration(
             color: Colors.white,
-            borderRadius: BorderRadius.circular(10.0),
+            borderRadius: BorderRadius.circular(20.0),
             boxShadow: const [
               BoxShadow(
                 color: Colors.black12,
@@ -295,13 +295,13 @@ class _SignInPageState extends State<SignInPage> {
               Container(
                 height: double.infinity,
                 width: double.infinity,
-                color: Color.fromARGB(116, 104, 190, 229),
+                color: const Color.fromARGB(116, 104, 190, 229),
               ),
               Form(
                 key: _formKey,
                 child: SingleChildScrollView(
-                  physics: AlwaysScrollableScrollPhysics(),
-                  padding: EdgeInsets.symmetric(
+                  physics: const AlwaysScrollableScrollPhysics(),
+                  padding: const EdgeInsets.symmetric(
                     horizontal: 40.0,
                     vertical: 10.0,
                   ),
@@ -309,7 +309,7 @@ class _SignInPageState extends State<SignInPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Image.asset('lib/img/logo.png'),
-                      Text(
+                      const Text(
                         'Sign In',
                         style: TextStyle(
                           color: Colors.white,
@@ -318,9 +318,9 @@ class _SignInPageState extends State<SignInPage> {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 30.0),
+                      const SizedBox(height: 30.0),
                       _buildEmailTF(),
-                      SizedBox(
+                      const SizedBox(
                         height: 30.0,
                       ),
                       _buildPasswordTF(),
@@ -329,8 +329,8 @@ class _SignInPageState extends State<SignInPage> {
                       _buildLoginBtn(),
                       if (_error.isNotEmpty)
                         Container(
-                          padding: EdgeInsets.all(8),
-                          margin: EdgeInsets.only(bottom: 15),
+                          padding: const EdgeInsets.all(8),
+                          margin: const EdgeInsets.only(bottom: 15),
                           color: Colors.red.shade100,
                           width: double.infinity,
                           child: Text(
@@ -339,6 +339,14 @@ class _SignInPageState extends State<SignInPage> {
                             textAlign: TextAlign.center,
                           ),
                         ),
+                      const SizedBox(height: 60.0),
+                      const Center(
+                        child: Text(
+                          "Developed in collaboration with School of Engineering, Tec de Monterrey.",
+                          style:
+                              TextStyle(fontSize: 10.0, color: Colors.blueGrey),
+                        ),
+                      ),
                     ],
                   ),
                 ),

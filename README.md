@@ -1,5 +1,8 @@
 # SmartSprinkler
 This project is developed as part of the Mechatronics Design course at Tec de Monterrey, aiming to meet and exceed the course's rigorous standards.
+<div style="display: flex; justify-content: space-around;">
+<img src="img/DiagramaFuncional.png" alt="Functional Diagram" width="500"/>
+</div>
 
 ## Prerequisites
 To effectively use, modify, or further develop this project, you'll need to set up your environment with the following tools and resources:
